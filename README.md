@@ -1,5 +1,8 @@
 # orb_slam_2_ros
 
+## update:
+use euroc dataset, the image rectfied from stereo_undistort_node is up-down Inverted, this is may lead to orb tracking failed all the time???
+
 ## Overview
 
 This package integrates orb_slam_2 into ROS in what we believe to be a more user friendly way than what is offered by the original library [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2)
